@@ -1,0 +1,30 @@
+# Local/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+
+# Secrets and private evaluation output
+.env
+.env.*
+!.env.example
+evals/local-runs/
+*.log
+
+# Editor backups and local environments
+*.swp
+*.swo
+*~
+venv/
+.envrc
+
+# Local agent installs and generated output
+.agents/
+.claude/
+.codex/
+.coverage
+.pytest_cache/

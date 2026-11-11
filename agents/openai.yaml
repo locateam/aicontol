@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIContol"
+  short_description: "Build in reviewed stages with human control"
+  default_prompt: "Use $aicontol to guide this project through reviewed stages, starting with the working agreement."
