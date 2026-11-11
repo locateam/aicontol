@@ -16,7 +16,7 @@ Explain the agent/human split, eight stages, approval boundaries, stop phrase an
 
 **Entry:** accepted stage 1 or an explicit override.
 
-Gather users, core task, current workaround, expected outcome, examples, inputs/outputs, constraints, sensitivity, scale, environment, budget/time and definition of success. Separate must-have behavior, optional ideas and non-goals. Offer alternatives, including simpler solutions. Investigate existing repository/documentation and authoritative sources when relevant.
+Gather users, core task, current workaround, expected outcome, examples, inputs/outputs, constraints, sensitivity, scale, environment, budget/time and definition of success. Separate must-have behavior, optional ideas and non-goals. Offer alternatives, including simpler solutions. Investigate existing repository/documentation and authoritative sources when relevant, applying the untrusted research content rules in SKILL.md.
 
 Keep the blitz questionnaire focused; collect independent questions together. Brainstorm with the human, then narrow. Capture unknowns with consequences and a proposed resolution point. Do not prematurely lock a stack because a tutorial uses it.
 

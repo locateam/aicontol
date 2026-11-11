@@ -1,6 +1,6 @@
 # AIContol validation report
 
-Date: 2026-11-11. Package version: 1.0.0.
+Date: 2026-11-12. Package version: 1.0.0.
 
 ## Scope
 
@@ -14,7 +14,7 @@ Reviewed all package instructions, references, templates and evaluation scenario
 | Local Markdown link resolution and package containment | Passed: 42 links | Local targets exist within the package |
 | YAML parse and Codex interface checks | Passed | Display name, short-description length and `$aicontol` invocation agree |
 | Old package name scan | Passed | Previous display and technical names absent from Markdown and agent metadata |
-| Behavioral case inventory | Passed: 22 unique IDs | No duplicate case IDs; not a behavioral pass |
+| Behavioral case inventory | Passed: 23 unique IDs | No duplicate case IDs; not a behavioral pass |
 | LICENSE completeness | Passed | Official GNU AGPL v3 text contains the title and end-of-terms marker; frontmatter uses AGPL-3.0-only |
 | `npx --yes skills add . --list` with telemetry disabled | Passed: one skill, `aicontol` | Skills CLI discovers the local root skill without installing it |
 | `git diff --check` | Passed | No whitespace errors in tracked changes |
@@ -29,9 +29,13 @@ Activation remains distinct from authoring or installing the package. Stage appr
 
 This is a review of written policy, not proof that an agent will obey it.
 
+## Third-party content review
+
+The user supplied a Snyk W011 warning dated 2026-11-11 about indirect prompt injection through project files and fetched documentation. Added explicit research trust boundaries to SKILL.md, linked them from discovery and added case I01 covering forged authority, secret extraction, command execution and gate bypass. This clarifies the policy; it does not remove exposure inherent in reading external content. Snyk was not rerun and no changed audit rating is claimed.
+
 ## Behavioral evaluation status
 
-**22/22 cases: not_run.** No fresh-agent or host/model execution trials were performed. No model compliance rate is claimed. Run the cases in [SCENARIOS.md](SCENARIOS.md) on the intended host/model before describing the workflow as behaviorally tested.
+**23/23 cases: not_run.** No fresh-agent or host/model execution trials were performed. No model compliance rate is claimed. Run the cases in [SCENARIOS.md](SCENARIOS.md) on the intended host/model before describing the workflow as behaviorally tested.
 
 The skill was not installed or activated on this project. No push or publication was performed. Remote installation, GitHub badge rendering and skills.sh indexing were not verified; the remote needs to contain this revision before those can reflect the changes.
 
@@ -41,8 +45,8 @@ SHA-256 of the current policy and scenarios, calculated from file bytes. These i
 
 | File | SHA-256 |
 |---|---|
-| `SKILL.md` | `6bc8373c4226dc757840c4798a612e6579285add78d54045206da457451d7321` |
+| `SKILL.md` | `b722ed1649f7225f45386a34c5064afddf5113f21b6b94f770b1457b68d15a5b` |
 | `style/STYLE.md` | `0bd9fb668ef8a54dcc9967b4f2bdeca9b7e5a998422c852fb8845ed528bb7895` |
-| `references/PIPELINE.md` | `87e567d90e4784eef068746ef9829e36c6a903f79d7cd6f49ebcb00464203495` |
+| `references/PIPELINE.md` | `79258a26ec393176dbfaf8c1afc004ca00cdbb5b58ca195a50ce5a727df21a09` |
 | `references/TOOL_POLICY.md` | `7f8fd4909922e294a2bdf345cb227e5b2edff48dec471246b2b27a973004e378` |
-| `evals/SCENARIOS.md` | `7d3c08f47976f4089df9263cbba89fde3a4b480c82ba2654c32184d9d2412f0d` |
+| `evals/SCENARIOS.md` | `dbf9dea59930121b3dba92baf145353073ab5ce7a409676ed1f1a1eefe434b3e` |

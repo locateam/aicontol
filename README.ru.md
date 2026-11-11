@@ -5,7 +5,7 @@
 <p align="center"><em>Забей, <strong>ВСЕ</strong> под контролем.</em></p>
 
 [![GitHub stars](https://img.shields.io/github/stars/locateam/aicontol?style=flat&labelColor=000000&color=6AA6DA&cacheSeconds=300)](https://github.com/locateam/aicontol/stargazers)
-[![skills.sh installs](https://skills.sh/b/locateam/aicontol)](https://skills.sh/locateam/aicontol)
+[![skills.sh installs](https://skills.sh/b/locateam/aicontol)](https://www.skills.sh/locateam/aicontol/aicontol)
 [![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-DBE3E9?style=flat&labelColor=000000)](SKILL.md)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-FBFBF8?style=flat&labelColor=000000)](LICENSE)
 
